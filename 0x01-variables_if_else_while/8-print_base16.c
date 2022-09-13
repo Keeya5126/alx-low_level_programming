@@ -11,7 +11,7 @@ int main(void)
 	char miv;
 
 	for (vim = 48; vim < 58; vim++)
-		putchar(sammy);
+		putchar(vim,);
 	for (miv = 'a'; miv <= 'f'; miv++)
 		putchar(miv);
 	putchar('\n');
